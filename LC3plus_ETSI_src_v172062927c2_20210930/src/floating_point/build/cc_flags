@@ -1,0 +1,1 @@
+gcc -std=c99 -O0 -Wall -pedantic -Wcast-qual -Wno-long-long -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Werror-implicit-function-declaration -Wunused-parameter -Wunused-macros -Wunused-local-typedefs -g -g3 -O0   -lm -g -g3
