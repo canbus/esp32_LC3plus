@@ -4,13 +4,15 @@ set(includes)
 list(APPEND includes
     "."
     "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point"
-    "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft"
+    # "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft/"
 )
 
 list(APPEND srsc
-    "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft/cfft.c"
-    "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft/iis_fft.c"
-    "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft/iisfft.c"
+    "esp_lc3plus.c"
+    
+    # "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft/cfft.c"
+    # "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft/iis_fft.c"
+    # "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/fft/iisfft.c"
 
     "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/adjust_global_gain.c"
     "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/al_fec_fl.c"
@@ -76,8 +78,6 @@ list(APPEND srsc
     "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/sns_quantize_scf.c"
     "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/tns_coder.c"
     "LC3plus_ETSI_src_v172062927c2_20210930/src/floating_point/tns_decoder.c"
-
-    "esp_lc3plus.c"
 )
 
 

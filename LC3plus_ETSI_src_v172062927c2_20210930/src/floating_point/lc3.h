@@ -40,7 +40,7 @@ typedef __int32       int32_t;
 
 /*! Maximum number of supported channels. The actual binary might support
  *  less, use lc3_channels_supported() to check. */
-#define LC3PLUS_MAX_CHANNELS 16
+#define LC3PLUS_MAX_CHANNELS 2
 
 /*! Maximum number of samples per channel that can be stored in one LC3 frame.
  */
